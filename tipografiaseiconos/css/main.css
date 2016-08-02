@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+
+*{
+	max-width: 100%;
+	box-sizing: content-box;
+}
+nav{
+	padding:2%;
+}
+
+h1{
+	font-family: 'Slabo 27px', serif;
+}
+h6, p{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+  p {
+	font-size: 12px;
+	font-family: 'Droid Serif', serif;
+}
+a {
+	text-align: center;
+	color: grey;
+	background-color: #FBFBFB;
+	text-decoration: none;
+}
+.iconos{
+	height: 300px;
+	width: 16%;
+	margin: 25px 5px 2px;
+	padding: 10px;
+	float: left;
+}
+
+
+a:hover {
+	color:#A8B9DA;
+	border-right: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	font-size: 90%;
+ 	margin-top: 10px;
+ 	transition: all 0.3s ease;
+ 	height: 320px;
+	width: 200px;
+}
